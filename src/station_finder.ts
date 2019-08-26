@@ -48,7 +48,7 @@ function removeOutOfReachStations(station: Station): boolean {
  * @return   [description]
  */
 function highestPoweredStation(a: Station, b: Station): any {
-  return a.getPower() > b.getPower();
+  return a.getPower() < b.getPower();
 }
 
 module.exports = {
