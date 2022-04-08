@@ -1,25 +1,30 @@
 {
-  "name": "linkstation-coding-exercise",
-  "version": "1.0.0",
-  "description": "1. `npm install` 2. If you haven't got typescript and ts-node installed then `npm install -g ts-node; npm install -g typescript` 3. `ts-node index.ts`",
-  "main": "index.ts",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.7.2"
-  },
-  "devDependencies": {
-    "mocha": "^6.2.0",
-    "should": "^13.2.3",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
-  },
-  "scripts": {
-    "exercise": "./node_modules/.bin/ts-node index.ts",
-    "test": "./node_modules/.bin/mocha --require ts-node/register ./test/*.ts"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "linkstation-coding-exercise",
+    "version": "1.0.0",
+    "description": "1. `npm install` 2. If you haven't got typescript and ts-node installed then `npm install -g ts-node; npm install -g typescript` 3. `ts-node index.ts`",
+    "main": "index.ts",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "@types/jest": "^27.4.1",
+        "@types/node": "^12.7.2",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint": "^8.12.0",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "jest": "^27.5.1",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.4",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.10"
+    },
+    "scripts": {
+        "exercise": "./node_modules/.bin/ts-node index.ts",
+        "test": "jest --coverage"
+    },
+    "author": "",
+    "license": "ISC"
 }

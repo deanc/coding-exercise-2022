@@ -1,14 +1,8 @@
 # Run
 
-1. `npm install`
-2. `npm run-script exercise`
+1. `yarn`
+2. `yarn --silent exercise`
 
 # Test
 
-1. `npm test`
-
-# Notes
-
-I could have wrote a million more tests for the station class for example, but
-for the purposes of this exercise, I believe I met the requirements and went
-a little further :)
+1. `yarn test`

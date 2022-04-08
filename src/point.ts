@@ -1,4 +1,1 @@
-type Point: [number, number];
-export {
-    Point
-};
+export type Point = [number, number];
